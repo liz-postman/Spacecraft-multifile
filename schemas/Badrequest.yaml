@@ -1,0 +1,16 @@
+type: object
+required:
+  - message
+  - errorCode
+properties:
+  message:
+    description: A human-readable error message explaining the reason for the `400 Bad Request`.
+    type: string
+  errorCode:
+    description: A specific error code related to the `400 Bad Request`.
+    type: string
+  invalidFields:
+    description: (Optional) A list of fields that caused the error, if applicable.
+    type: array
+    items:
+      type: string

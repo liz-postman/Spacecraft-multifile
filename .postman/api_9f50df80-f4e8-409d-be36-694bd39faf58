@@ -15,9 +15,11 @@ rootDirectory = postman/collections
 [config.relations.apiDefinition]
 files[] = {"path":"index.yaml","metaData":{}}
 files[] = {"path":"responses/200.yaml","metaData":{}}
+files[] = {"path":"responses/400.yaml","metaData":{}}
 files[] = {"path":"responses/404.yaml","metaData":{}}
 files[] = {"path":"responses/500.yaml","metaData":{}}
 files[] = {"path":"schemas/_index.yaml","metaData":{}}
+files[] = {"path":"schemas/Badrequest.yaml","metaData":{}}
 files[] = {"path":"schemas/Error.yaml","metaData":{}}
 files[] = {"path":"schemas/Spacecraft.yaml","metaData":{}}
 
