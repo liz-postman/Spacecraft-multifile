@@ -1,0 +1,7 @@
+SpacecraftId:
+      description: The unique identifier of a spacecraft
+      type: string
+Spacecraft:
+  $ref: "./Spacecraft.yaml"
+Error:
+  $ref: "./Error.yaml"

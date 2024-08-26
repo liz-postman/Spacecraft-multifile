@@ -1,0 +1,5 @@
+description: The spacecraft corresponding to the provided `spacecraftId`
+content:
+  application/json:
+    schema:
+      $ref: '#/components/schemas/Spacecraft'
