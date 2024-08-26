@@ -18,6 +18,8 @@ paths:
       responses:
         200:
           $ref: "./responses/200.yaml"
+        400:
+          $ref: "./responses/400.yaml"
         404:
           $ref: "./responses/404.yaml"
         500:

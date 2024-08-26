@@ -5,3 +5,5 @@ Spacecraft:
   $ref: "./Spacecraft.yaml"
 Error:
   $ref: "./Error.yaml"
+Badrequest:
+  $ref: "./Badrequest.yaml"

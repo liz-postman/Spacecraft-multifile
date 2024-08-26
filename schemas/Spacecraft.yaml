@@ -15,6 +15,6 @@ properties:
       - probe
       - satellite
       - spaceplane
-      - statio
+      - station
   description:
     type: string
